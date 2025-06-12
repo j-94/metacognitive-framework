@@ -1,0 +1,128 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Delta Test Report</title>
+    <style>
+        body { font-family: Arial, sans-serif; margin: 40px; }
+        .header { background: #f0f0f0; padding: 20px; border-radius: 5px; }
+        .mutation { margin: 20px 0; padding: 15px; border: 1px solid #ddd; }
+        .significant { background: #ffe0e0; }
+        .improvement { color: green; }
+        .regression { color: red; }
+        table { border-collapse: collapse; width: 100%; margin: 10px 0; }
+        th, td { border: 1px solid #ddd; padding: 8px; text-align: left; }
+        th { background: #f0f0f0; }
+    </style>
+</head>
+<body>
+    <div class="header">
+        <h1>Delta Test Report</h1>
+        <p>Generated: 2025-06-12T16:01:36.634779</p>
+    </div>
+    
+    <h2>Summary</h2>
+    <ul>
+        <li>Total mutations tested: 2</li>
+        <li>Successful tests: 2</li>
+    </ul>
+    
+    <h2>Mutation Results</h2>
+    <div class="mutation"><h3>adjust_recursion_depth</h3><table><tr><th>Metric</th><th>Pre</th><th>Post</th><th>Delta</th><th>% Change</th></tr>
+            <tr>
+                <td>alignment_score</td>
+                <td>0.818</td>
+                <td>0.972</td>
+                <td class="improvement">+0.154</td>
+                <td class="improvement">+18.9%</td>
+            </tr>
+            
+            <tr>
+                <td>novelty_gradient</td>
+                <td>0.385</td>
+                <td>0.605</td>
+                <td class="improvement">+0.220</td>
+                <td class="improvement">+57.2%</td>
+            </tr>
+            
+            <tr>
+                <td>resource_efficiency</td>
+                <td>1.370</td>
+                <td>1.852</td>
+                <td class="improvement">+0.482</td>
+                <td class="improvement">+35.2%</td>
+            </tr>
+            
+            <tr>
+                <td>success_rate</td>
+                <td>0.800</td>
+                <td>1.000</td>
+                <td class="improvement">+0.200</td>
+                <td class="improvement">+25.0%</td>
+            </tr>
+            
+            <tr>
+                <td>total_tokens</td>
+                <td>484.000</td>
+                <td>440.000</td>
+                <td class="regression">-44.000</td>
+                <td class="regression">-9.1%</td>
+            </tr>
+            
+            <tr>
+                <td>avg_response_time</td>
+                <td>0.000</td>
+                <td>0.000</td>
+                <td class="regression">-0.000</td>
+                <td class="regression">-52.7%</td>
+            </tr>
+            </table></div><div class="mutation"><h3>reweight_tool_efficiency</h3><table><tr><th>Metric</th><th>Pre</th><th>Post</th><th>Delta</th><th>% Change</th></tr>
+            <tr>
+                <td>alignment_score</td>
+                <td>0.818</td>
+                <td>0.817</td>
+                <td class="regression">-0.001</td>
+                <td class="regression">-0.1%</td>
+            </tr>
+            
+            <tr>
+                <td>novelty_gradient</td>
+                <td>0.385</td>
+                <td>0.464</td>
+                <td class="improvement">+0.080</td>
+                <td class="improvement">+20.8%</td>
+            </tr>
+            
+            <tr>
+                <td>resource_efficiency</td>
+                <td>1.370</td>
+                <td>1.961</td>
+                <td class="improvement">+0.591</td>
+                <td class="improvement">+43.1%</td>
+            </tr>
+            
+            <tr>
+                <td>success_rate</td>
+                <td>0.800</td>
+                <td>0.800</td>
+                <td class="regression">+0.000</td>
+                <td class="regression">+0.0%</td>
+            </tr>
+            
+            <tr>
+                <td>total_tokens</td>
+                <td>484.000</td>
+                <td>308.000</td>
+                <td class="regression">-176.000</td>
+                <td class="regression">-36.4%</td>
+            </tr>
+            
+            <tr>
+                <td>avg_response_time</td>
+                <td>0.000</td>
+                <td>0.000</td>
+                <td class="regression">-0.000</td>
+                <td class="regression">-44.2%</td>
+            </tr>
+            </table></div>
+</body>
+</html>

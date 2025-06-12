@@ -1,0 +1,1 @@
+{"id": "m3", "prompt": "Show that the derivative of x^n is nx^(n-1).", "ground_truth": "limit_definition"}

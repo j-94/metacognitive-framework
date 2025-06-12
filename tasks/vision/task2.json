@@ -1,0 +1,6 @@
+{
+  "id": "v2",
+  "domain": "vision",
+  "prompt": "Describe the key steps to implement a convolutional neural network for image classification",
+  "max_tokens": 150
+}

@@ -1,0 +1,6 @@
+{
+  "id": "v1",
+  "domain": "vision",
+  "prompt": "Example vision task",
+  "max_tokens": 100
+}

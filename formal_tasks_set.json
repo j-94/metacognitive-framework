@@ -1,0 +1,37 @@
+[
+  {
+    "id": "formal_1",
+    "domain": "math",
+    "prompt": "Prove that the square root of 2 is irrational using a proof by contradiction",
+    "max_tokens": 200,
+    "expected_qualities": ["logical_structure", "mathematical_rigor"]
+  },
+  {
+    "id": "formal_2",
+    "domain": "math", 
+    "prompt": "Derive the quadratic formula from first principles",
+    "max_tokens": 150,
+    "expected_qualities": ["step_by_step", "algebraic_manipulation"]
+  },
+  {
+    "id": "formal_3",
+    "domain": "rag",
+    "prompt": "Explain the key differences between supervised and unsupervised learning",
+    "max_tokens": 150,
+    "expected_qualities": ["comparison", "technical_accuracy"]
+  },
+  {
+    "id": "formal_4",
+    "domain": "rag",
+    "prompt": "Describe the architecture of a transformer model",
+    "max_tokens": 200,
+    "expected_qualities": ["technical_depth", "structural_clarity"]
+  },
+  {
+    "id": "formal_5",
+    "domain": "vision",
+    "prompt": "Explain how convolutional layers extract features from images",
+    "max_tokens": 150,
+    "expected_qualities": ["technical_accuracy", "visual_intuition"]
+  }
+]
